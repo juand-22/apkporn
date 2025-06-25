@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    background-color: #1A56DB;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    width: 200px;
+    font-weight: 550;
+    border-radius: 10px;
+    border: 1px solid #1A56DB;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.1s linear;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+a:hover{
+    background-color: #1E429F;
+}
